@@ -25,4 +25,4 @@ def classify_image():
 if __name__== "__main__":
     print("Starting Python Flask Server For Sports Celebrity Image Classification")
     
-    app.run(debug=True, port=5000)
+    app.run()
