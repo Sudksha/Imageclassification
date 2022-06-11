@@ -17,6 +17,7 @@ function init() {
 
     dz.on("complete", function (file) {
         let imageData = file.dataURL;
+	console.log(process.env.PORT)
 	let port = process.env.PORT
         var url = "http://0.0.0.0:"+port+"/classify_image";
         $.post(url, {
